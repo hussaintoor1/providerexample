@@ -9,7 +9,7 @@ class MyHomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Provider Example App (${context.watch<Counter>().count})'),
+        title: Text('Provider App (${context.watch<Counter>().count})'),
       ),
       body: Center(
         child: Column(
